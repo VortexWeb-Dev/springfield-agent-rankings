@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpringField Dashboard</title>
+    <title>SpringField Agent Ranking</title>
     <!-- Custom css -->
     <link rel="stylesheet" href="../assets//css//style.css">
     <link rel="stylesheet" href="../assets//css//navbarSide.css">

@@ -131,11 +131,13 @@ echo "<pre>";
 echo "</pre>";
 ?>
 
+
 <div class="w-[85%] bg-gray-100 dark:bg-gray-900">
     <?php include('includes/navbar.php'); ?>
+
     <div class="px-8 py-6">
         <?php include('./includes/datepicker.php'); ?>
-
+        <h1 class="text-xl text-center font-bold mb-4 dark:text-gray-200"><?= $agent_name ?>'s Rankings</h1>
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <!-- Monthly Ranking -->
@@ -242,7 +244,6 @@ echo "</pre>";
         </div>
     </div>
 </div>
-
 
 
 <?php include('includes/footer.php'); ?>
